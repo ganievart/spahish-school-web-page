@@ -1,0 +1,106 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    background-color: #f8d7da;
+}
+
+.landing-logo {
+    height: 90px;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+.landing-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #ffffff;
+    color: #b5651d;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2em;
+}
+
+.header-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.landing-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.landing-nav button {
+    background-color: transparent;
+    border: none;
+    color: #b5651d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.landing-nav button:hover {
+    color: #884c1e;
+}
+
+.content-section {
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+    padding: 0;
+}
+
+.header-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    /* Make the image less transparent */
+}
+
+.register-button-container {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    /* Move the button to the left side */
+    transform: translateY(-50%);
+}
+
+.register-button {
+    background-color: #b5651d;
+    border: none;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.register-button:hover {
+    background-color: #884c1e;
+}
+
+.landing-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.landing-footer {
+    padding: 1rem;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
